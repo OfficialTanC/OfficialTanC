@@ -1,7 +1,11 @@
-//Change navbar colour on scroll + set fixed top
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height())
+//Change logo on scroll
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 1){
+      $('header').addClass("sticky");
+    }
+    else {
+      $('header').removeClass("sticky");
+    }
   });
 });
