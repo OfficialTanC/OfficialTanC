@@ -3,6 +3,11 @@ $bgcolor: #ecf0f1;
 
 // Navbar
 .navbar {
+  .nav-item {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 10px;
+  }
   .nav-link {
     color: #fff;
   }
@@ -44,6 +49,20 @@ video {
   width: 100%;
 }
 
+.carousel-caption {
+  height: 75%;
+  h1 {
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  p {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+}
+
 //  Main
 body {
   background-color: $bgcolor;
@@ -52,10 +71,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Archivo Narrow', sans-serif;
-}
-
-#contact_section {
-  text-align: center;
 }
 
 //  Footer
