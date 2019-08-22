@@ -16,7 +16,7 @@ header {
     height: 50px;
     background-size: cover;
   }
-  
+
   &.sticky {
     nav {
       background-color: #fff;
@@ -47,6 +47,11 @@ video {
 //  Main
 body {
   background-color: $bgcolor;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 #contact_section {
